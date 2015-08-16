@@ -1,0 +1,34 @@
+pkgbase = juank
+	pkgdesc = Post-install script.
+	pkgver = 1.9.7
+	pkgrel = 1
+	url = https://github.com/juankfree
+	install = juank.install
+	arch = any
+	license = GPL2
+	depends = hosty
+	depends = simplescreenrecorder
+	depends = git
+	depends = lib32-simplescreenrecorder
+	depends = heroku-client-standalone
+	depends = teamviewer
+	depends = playonlinux
+	depends = gcc-multilib
+	depends = tree
+	depends = lib32-fakeroot
+	depends = libtool-multilib
+	depends = pkgbuild-introspection
+	depends = nodejs
+	depends = python-pip
+	depends = mongodb
+	depends = chromium
+	depends = chromium-pepper-flash
+	depends = packer
+	depends = gimp
+	depends = libreoffice-fresh
+	depends = popcorntime-bin
+	depends = sublime-text-dev
+	options = !strip
+
+pkgname = juank
+
